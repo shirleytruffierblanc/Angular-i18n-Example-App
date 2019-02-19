@@ -7,7 +7,7 @@
     <span class="spacer"></span>
 
     <mat-list-item *ngFor="let locale of locales">
-      <a class="lang-option" [href]="'/' + locale.code + currentUrl">{{ locale.text }}</a>
+      <a class="lang-option" [href]="'/' + currentUrl + locale.code">{{ locale.text }}</a>
     </mat-list-item>
   </mat-toolbar>
 
