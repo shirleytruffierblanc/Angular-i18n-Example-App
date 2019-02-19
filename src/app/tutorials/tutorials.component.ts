@@ -6,5 +6,8 @@ import {Component} from '@angular/core';
   styleUrls: ['./tutorials.component.scss']
 })
 export class TutorialsComponent {
-
+  minutes = 0;
+  inc(i: number) {
+    this.minutes = Math.min(15, Math.max(0, this.minutes + i));
+  }
 }
