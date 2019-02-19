@@ -41,5 +41,11 @@
     <p i18n="@@bonjour">
       hello
     </p>
+
+    <button (click)="inc(1)">+</button>&nbsp;&nbsp;<button (click)="inc(-1)">-</button> &nbsp;&nbsp;
+    <div>
+    <p i18n = "@@message">you have {minutes, plural, =0 {0 messages} =1 {1 message} other {{{minutes}} messages}}</p>
+    </div>
+
   </div>
 </div>

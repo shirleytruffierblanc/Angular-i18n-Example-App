@@ -208,6 +208,13 @@
       <source>hello</source>
       <target>Bonjour</target>
       </trans-unit>
+
+      <trans-unit id="message" datatype="html">
+         <source>you have {minutes, plural, =0 {0 messages} =1 {1 message} other {{{minutes}} messages}}</source>
+        <target>vous avez {minutes, plural, =0 {0 message} =1 {1 message} other {{{minutes}} messages}}</target>
+      </trans-unit>
+
+
     </body>
   </file>
 </xliff>

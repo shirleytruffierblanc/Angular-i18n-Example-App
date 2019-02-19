@@ -934,7 +934,7 @@ exports.LAZY_MODULE_MAP = {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/shirley/workspace/test-transaltion-angular/version-works/angular6-i18n-demo/src/main.server.ts */"./src/main.server.ts");
+module.exports = __webpack_require__(/*! /home/shirley/workspace/test-transaltion-angular/version-works/app-github-tuto/src/main.server.ts */"./src/main.server.ts");
 
 
 /***/ }),

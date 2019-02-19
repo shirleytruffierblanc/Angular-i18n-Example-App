@@ -136,6 +136,12 @@
       <trans-unit id="bonjour" datatype="html">
       <source>hello</source>
       </trans-unit>
+
+      <trans-unit id="message" datatype="html">
+         <source>you have {minutes, plural, =0 {zero messages} =1 {one message} other {{{minutes}} messages}}</source>
+      </trans-unit>
+
+
     </body>
   </file>
 </xliff>

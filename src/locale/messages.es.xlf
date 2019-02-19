@@ -186,6 +186,12 @@
       <source>hello</source>
       <target>hola</target>
       </trans-unit>
+
+      <trans-unit id="message" datatype="html">
+         <source>you have {minutes, plural, =0 {0 messages} =1 {1 message} other {{{minutes}} messages}}</source>
+        <target>usted tiene {minutes, plural, =0 {ningún mensaje} =1 {1 mensaje} other {{{minutes}} mensajes}}</target>
+      </trans-unit>
+      
     </body>
   </file>
 </xliff>

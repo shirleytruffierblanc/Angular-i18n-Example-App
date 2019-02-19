@@ -190,6 +190,13 @@
       <source>hello</source>
       <target>hello</target>
       </trans-unit>
+
+      <trans-unit id="message" datatype="html">
+         <source>you have {minutes, plural, =0 {zero messages} =1 {one message} other {{{minutes}} messages}}</source>
+        <target>you have {minutes, plural, =0 {zero messages} =1 {one message} other {{{minutes}} messages}}</target>
+      </trans-unit>
+
+
     </body>
   </file>
 </xliff>
