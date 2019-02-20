@@ -27,3 +27,7 @@ or
 
 # License
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
+
+## How to deploy
+* `ng build --prod --base-href "http://shirleytruffierblanc.github.io/app-github-tuto/" `
+* `ng build --prod --base-href=/app-github-tuto/`
