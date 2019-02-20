@@ -1,7 +1,7 @@
 <div class="container">
   <div class="title">
     <h1 i18n="@@homeTitle">
-      Tutorials
+      Tutorials 
     </h1>
   </div>
   <div class="paragraphs">
@@ -46,6 +46,13 @@
     <div>
     <p i18n = "@@message">you have {minutes, plural, =0 {0 messages} =1 {1 message} other {{{minutes}} messages}}</p>
     </div>
+
+    <div>
+      <p>Today is {{today | date}}</p>
+      <p>Or if you prefer, {{today | date:'fullDate'}}</p>
+      <p>The time is {{today | date:'h:mm a z'}}</p>
+    </div>
+
 
   </div>
 </div>

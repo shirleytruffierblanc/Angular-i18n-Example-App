@@ -7,6 +7,7 @@ import {Component} from '@angular/core';
 })
 export class TutorialsComponent {
   minutes = 0;
+  today: number = Date.now();
   inc(i: number) {
     this.minutes = Math.min(15, Math.max(0, this.minutes + i));
   }
