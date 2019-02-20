@@ -33,3 +33,4 @@ or
 * `ng build --prod --base-href=/app-github-tuto/`
 
 http://shirleytruffierblanc.github.io/app-github-tuto
+* `ng build --prod --base-href=/app-github-tuto/`
